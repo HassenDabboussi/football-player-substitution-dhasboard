@@ -5,8 +5,71 @@
 }
 
 main {
+    border: 1px dotted black;
     min-width: 100vw;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.numbers {
+    border: 1px dotted blue;
+    min-height: 65vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;;
+}
+
+.sponsor-and-settings{
+    border: 1px dotted red;
+    min-height: 35vh;
+    display: flex;
+}
+
+.sponsor {
+    border: 1px dotted green;
+    min-width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-section {
+    border: 1px dotted black;
+    min-width: 35vw;
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lower-section {
+    border: 1px dotted maroon;
+    min-height: 27vh;
+    display: flex;
+}
+
+.in-and-out-fields{
+    border: 1px dotted purple;
+    min-width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-of-numbers{
+    border: 1px dotted red;
+    min-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
