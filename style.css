@@ -13,6 +13,7 @@ main {
 
 .numbers {
     border: 2px solid white;
+     background-color: black;
     min-height: 65vh;
     display: flex;
     justify-content: space-evenly;
